@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "xeotek-time-travel:build:production",
+            "firebaseProject": "mk-projecto",
+            "firebaseHostingSite": "xeotek"
+          }
         }
       }
     }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mk-projecto": {
+      "hosting": {
+        "xeotek-time-travel": [
+          "xeotek"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mk-projecto"
+  }
+}
